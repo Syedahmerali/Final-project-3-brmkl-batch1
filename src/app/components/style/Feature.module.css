@@ -1,0 +1,35 @@
+
+.icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.icon {
+    display: flex;
+    background-color: #093654;
+    align-items: center;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: 1.8px solid white;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    background-color: #60a5fa;
+    transform: scale(1.1);
+}
+
+.icon svg {
+    color: #60a5fa;
+    transition: color 0.3s;
+}
+
+.icon:hover svg {
+    color: #093654;
+    
+}
